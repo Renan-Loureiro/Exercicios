@@ -50,7 +50,7 @@ ordenados_preco = sorted(copy.deepcopy(copia_produtos),
                         key=lambda p: p['preco'],
                         )
 
-print(*ordenados_nome, sep='\n')
+print(*ordenados_preco, sep='\n')
 print()
 
 
